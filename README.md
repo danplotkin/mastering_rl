@@ -2,13 +2,13 @@
 
 ## Course Modules:
 
-> 1. [Part I: Mastering Reinforcement Learning Conceptually](https://colab.research.google.com/drive/18r2YVIozch2R_grvmowtUslgKPYZEXfT?usp=sharing)
+> 1. [Part I: Theory and Math](https://colab.research.google.com/drive/18r2YVIozch2R_grvmowtUslgKPYZEXfT?usp=sharing)
 
 > 2. Part II: Implementing Reiforcement Learning in Python (*Not yet published*)
 
 ## About
 Welcome to my course *Understanding Reinforcement Learning*! This course will be split up into two parts:
-* Part I: Mastering Reinforcement Learning Conceptually
+* Part I: Theory and Math
 * Part II: Implementing Reiforcement Learning in Python (*Not yet published*)
 
 By the end of this course, you will have a strong understanding on what reinforcement learning is, the mathematical foundation of reiforcement learning, Markov Decision Process (MDP), Q-learning, Deep-Q Learning, and how you can implement all of these skills using python in a real world project!
