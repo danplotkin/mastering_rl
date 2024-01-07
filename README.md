@@ -2,7 +2,7 @@
 
 ## Course Modules:
 
-> 1. [Part I: Theory and Math](https://colab.research.google.com/drive/18r2YVIozch2R_grvmowtUslgKPYZEXfT?usp=sharing)
+> 1. [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 
 > 2. Part II: Implementing Reiforcement Learning in Python (*Not yet published*)
 
