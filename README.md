@@ -4,12 +4,12 @@
 
 > 1. [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 
-> 2. [Part II: Implementing Reiforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
+> 2. [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
 
 ## About
 Welcome to my course *Understanding Reinforcement Learning*! This course will be split up into two parts:
 * Part I: Theory and Math
-* Part II: Implementing Reiforcement Learning in Python 
+* Part II: Implementing Reinforcement Learning in Python 
 
 By the end of this course, you will have a strong understanding on what reinforcement learning is, the mathematical foundation of reiforcement learning, Markov Decision Process (MDP), Q-learning, Deep-Q Learning, and how you can implement all of these skills using python in a real world project!
 
