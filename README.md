@@ -1,4 +1,4 @@
-# Mastering Reinforcement Learning: Theory, Math, & Python
+# Mastering Reinforcement Learning: Theory, Math, and Python
 
 ## Course Modules:
 
