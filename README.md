@@ -7,7 +7,7 @@
 > 2. [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
 
 ## About
-Welcome to my course *Understanding Reinforcement Learning*! This course will be split up into two parts:
+Welcome to my course *Mastering Reinforcement Learning: Theory, Math, and Python*! This course will be split up into two parts:
 * Part I: Theory and Math
 * Part II: Implementing Reinforcement Learning in Python 
 
