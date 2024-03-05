@@ -5,121 +5,120 @@
 > 1. [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 <details>
    <summary> Show more </summary>
-   
->[Introduction to Reinforcement Learning](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=9-9rUEY2mo9a)
-   
->>[Reinforcement Learning vs Supervised and Unsupervised Learning](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=akvqtK_vbUJF)
+&nbsp;
+Introduction to Reinforcement Learning
 
->>[Use Cases for Reinforcement Learning](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=BWxTKKSebhwu)
+&nbsp;&nbsp;&nbsp;&nbsp;Reinforcement Learning vs Supervised and Unsupervised Learning
 
->>[Markov Decision Processes (MDP)](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=fcuasjvunYGv)
+&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reinforcement Learning
 
->>>[A. Markov Property](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=DLv66adWna4G)
+Markov Decision Processes (MDP)
 
->>>[B. Agent-Environment Interaction in MDPs](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=JgcljOBwndhn)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Markov Property
 
->>>[C. State-Action Representation in MDPs.](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=L0nxi9sfngNu)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Agent-Environment Interaction in MDPs
 
->>>[D. Mars Rover Example Introduction](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=HkgIA0ItdJaM)
+&nbsp;&nbsp;&nbsp;&nbsp;C. State-Action Representation in MDPs.
 
->>>[E. MDP Trajectory](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=JaxB5Uxwnif2)
+&nbsp;&nbsp;&nbsp;&nbsp;D. Mars Rover Example Introduction
 
->>>[F. Transition Probabilities](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=TUtM3bW1nmjJ)
+&nbsp;&nbsp;&nbsp;&nbsp;E. MDP Trajectory
 
->>>>[I. Transition Probabilities with Stochastic Environment (Mars Rover)](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=9wglnomfvLlP)
+&nbsp;&nbsp;&nbsp;&nbsp;F. Transition Probabilities
 
->>>[G. Expected Return](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=MiU34uW1nrLR)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Transition Probabilities with Stochastic Environment (Mars Rover)
 
->>>>[I. Example with Mars Rover](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=lG-R0F4l3KTE)
+&nbsp;&nbsp;&nbsp;&nbsp;G. Expected Return
 
->>>[H. Policies](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=x1jrBqhWQN0s)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Example with Mars Rover
 
->>>[I. Value Functions](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=tlamPbi7Vrvj)
+&nbsp;&nbsp;&nbsp;&nbsp;H. Policies
 
->>>[J. Representing MDP as a Tuple](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=K2g6_pReay6x)
+&nbsp;&nbsp;&nbsp;&nbsp;I. Value Functions
 
->>[Policy Optimality](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=jG0-HB76hwPT)
+&nbsp;&nbsp;&nbsp;&nbsp;J. Representing MDP as a Tuple
 
->>>[A. Policy Improvement Theorem](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=_xrjl-zmpCwg)
+Policy Optimality
 
->>>[B. Optimal State-Value Function](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=_F9mu0-W4p7o)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Policy Improvement Theorem
 
->>>[C. Optimal Action-Value Function](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=CR2qnP-SBYd8)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Optimal State-Value Function
 
->>>[D. Bellman Optimality Equation for $Q^*$](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=yi3HoW-Jn5HL)
+&nbsp;&nbsp;&nbsp;&nbsp;C. Optimal Action-Value Function
 
->>>[E. Deriving Optimal Policy](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=747OG0dPU7d4)
+&nbsp;&nbsp;&nbsp;&nbsp;D. Bellman Optimality Equation for $Q^*$
 
->>[Q-Learning](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=wepK9xsw3sZS)
+&nbsp;&nbsp;&nbsp;&nbsp;E. Deriving Optimal Policy
 
->>>[A. Q-Value Table](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=3Ca3sxI3gHNv)
+Q-Learning
 
->>>>[I. Initialization](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=0tDTbVXsgLKK)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Q-Value Table
 
->>>[B. Exploration Vs Exploitation](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=EySyN_4OUgOR)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Initialization
 
->>>>[I. Epsilon Greedy Strategy](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=4SgZyIjhZPpg)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Exploration Vs Exploitation
 
->>>[C. Q-value Update with Q-Learning Algorithm](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=RSwVXzkCgcCW)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Epsilon Greedy Strategy
 
->>>[D. Mars Rover Q-Learning Example](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;C. Q-value Update with Q-Learning Algorithm
 
->>>>[Step 1. Q-Value Table Initialization](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;D. Mars Rover Q-Learning Example
 
->>>>[Step 2: Current State $s_4$](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1. Q-Value Table Initialization
 
->>>>[Step 3: Transition and Reward](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Current State $s_4$
 
->>>>[Step 4: Q-Value Update](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3: Transition and Reward
 
->>>>[Step 5: Update Q Table:](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dh2CauP9Z0KW)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4: Q-Value Update
 
->>[Deep Q-Learning](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=c3iKjQMQnG49)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Update Q Table:
 
->>>[A. Deep Q-Networks (DQN)](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=KilZ4mPTzPSl)
+Deep Q-Learning
 
->>>>[I. Policy Network Architecture](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=HaEfX4bvps8r)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Deep Q-Networks (DQN)
 
->>>>[II. Loss Calculation](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=13Fgz5ZypFV9)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Policy Network Architecture
 
->>>>[III. Update Parameters](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=z77xcioF1zvf)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Loss Calculation
 
->>>[B. Experience Replay & Replay Memory](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=TsE6pvapqUEA)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Update Parameters
 
->>>>[I. Replay Memory as a Tuple](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=DBEdMyjqu-d7)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Experience Replay & Replay Memory
 
->>>>[II. Randomly Sampling Replay Memory](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=_I2dEDDQvRKT)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Replay Memory as a Tuple
 
->>>>[III. Training with Replay](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=llc3SZcZvMMR)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Randomly Sampling Replay Memory
 
->>[Training a DQN](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=I7kN5qId108M)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Training with Replay
 
->>>[A. Training Steps](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=AQOc87ehbvoY)
+Training a DQN
 
->>>>[I. Sample a Random Batch from Replay Memory.](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=rBmV4iBGjN1g)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Training Steps
 
->>>>[II. Preprocess the State](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=RtuMBKEEjP6y)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Sample a Random Batch from Replay Memory.
 
->>>>[III. Forward Propagation](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=U6o2_-EdkNjF)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Preprocess the State
 
->>>>[IV. Calculate Loss](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=Dsz5GRVPjh8W)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Forward Propagation
 
->>>>[V. Backpropagation & Gradient Descent](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=CSDluyVEvKXn)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV. Calculate Loss
 
->>>[B. Full Training Loop](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=SVRu7rydwThH)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V. Backpropagation & Gradient Descent
 
->>>[C. Limitations of Standard DQNs](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=OPbovuUNgudF)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Full Training Loop
 
->>[Target Network](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=-5wpSYDdggXg)
+&nbsp;&nbsp;&nbsp;&nbsp;C. Limitations of Standard DQNs
 
->>>[A. Initialization](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=UQpvGiNMoW3c)
+Target Network
 
->>>[B. Soft Update](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=hMazPWK0pLLm)
+&nbsp;&nbsp;&nbsp;&nbsp;A. Initialization
 
->>>[C. Updated Training Process](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=yE4em57vpuIR)
+&nbsp;&nbsp;&nbsp;&nbsp;B. Soft Update
 
->[Next Steps](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb#scrollTo=nm5hJe3oo-DL)
+&nbsp;&nbsp;&nbsp;&nbsp;C. Updated Training Process
 
+Next Steps
 </details>
 
 > 2. [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
