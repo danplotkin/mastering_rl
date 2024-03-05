@@ -4,7 +4,7 @@
 
 > 1. [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 <details>
-   > <summary>Show more</summary>
+   <summary>Show more</summary>
    
 >[Introduction to Reinforcement Learning](#scrollTo=9-9rUEY2mo9a)
    
