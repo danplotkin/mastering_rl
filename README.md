@@ -122,8 +122,6 @@
 >
 > The Cartpole Envirnonment
 >
->> Solved Requirements
->
 > Developing a Cartpole Agent
 >
 >> Install Gymnasium
