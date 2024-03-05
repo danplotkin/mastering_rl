@@ -122,7 +122,7 @@
 >
 > The Cartpole Envirnonment
 >
-> Solved Requirements
+>> Solved Requirements
 >
 > Developing a Cartpole Agent
 >
