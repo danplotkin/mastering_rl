@@ -4,158 +4,155 @@
 
 [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 <details>
-   <summary>&nbsp;Show contents</summary>
-&nbsp;
-
-Introduction to Reinforcement Learning
-
-Reinforcement Learning vs Supervised and Unsupervised Learning
-
-Use Cases for Reinforcement Learning
-
-Markov Decision Processes (MDP)
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Markov Property
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Agent-Environment Interaction in MDPs
-
-&nbsp;&nbsp;&nbsp;&nbsp;C. State-Action Representation in MDPs.
-
-&nbsp;&nbsp;&nbsp;&nbsp;D. Mars Rover Example Introduction
-
-&nbsp;&nbsp;&nbsp;&nbsp;E. MDP Trajectory
-
-&nbsp;&nbsp;&nbsp;&nbsp;F. Transition Probabilities
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Transition Probabilities with Stochastic Environment (Mars Rover)
-
-&nbsp;&nbsp;&nbsp;&nbsp;G. Expected Return
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Example with Mars Rover
-
-&nbsp;&nbsp;&nbsp;&nbsp;H. Policies
-
-&nbsp;&nbsp;&nbsp;&nbsp;I. Value Functions
-
-&nbsp;&nbsp;&nbsp;&nbsp;J. Representing MDP as a Tuple
-
-Policy Optimality
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Policy Improvement Theorem
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Optimal State-Value Function
-
-&nbsp;&nbsp;&nbsp;&nbsp;C. Optimal Action-Value Function
-
-&nbsp;&nbsp;&nbsp;&nbsp;D. Bellman Optimality Equation for $Q^*$
-
-&nbsp;&nbsp;&nbsp;&nbsp;E. Deriving Optimal Policy
-
-Q-Learning
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Q-Value Table
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Initialization
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Exploration Vs Exploitation
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Epsilon Greedy Strategy
-
-&nbsp;&nbsp;&nbsp;&nbsp;C. Q-value Update with Q-Learning Algorithm
-
-&nbsp;&nbsp;&nbsp;&nbsp;D. Mars Rover Q-Learning Example
-
-Deep Q-Learning
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Deep Q-Networks (DQN)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Policy Network Architecture
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Loss Calculation
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Update Parameters
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Experience Replay & Replay Memory
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Replay Memory as a Tuple
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Randomly Sampling Replay Memory
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Training with Replay
-
-Training a DQN
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Training Steps
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Sample a Random Batch from Replay Memory.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Preprocess the State
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Forward Propagation
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV. Calculate Loss
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V. Backpropagation & Gradient Descent
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Full Training Loop
-
-&nbsp;&nbsp;&nbsp;&nbsp;C. Limitations of Standard DQNs
-
-Target Network
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Initialization
-
-&nbsp;&nbsp;&nbsp;&nbsp;B. Soft Update
-
-&nbsp;&nbsp;&nbsp;&nbsp;C. Updated Training Process
-
-Next Steps
+   <summary>&npsb;Show contents</summary>
+   
+> Introduction to Reinforcement Learning
+>
+> Reinforcement Learning vs Supervised and Unsupervised Learning
+>
+> Use Cases for Reinforcement Learning
+>
+> Markov Decision Processes (MDP)
+>
+>> A. Markov Property
+>>
+>> B. Agent-Environment Interaction in MDPs
+>>
+>> C. State-Action Representation in MDPs.
+>>
+>> D. Mars Rover Example Introduction
+>>
+>> E. MDP Trajectory
+>>
+>> F. Transition Probabilities
+>>
+>>> I. Transition Probabilities with Stochastic Environment (Mars Rover)
+>>>
+>> G. Expected Return
+>>
+>>> I. Example with Mars Rover
+>>>
+>> H. Policies
+>>
+>> I. Value Functions
+>>
+>> J. Representing MDP as a Tuple
+>>
+> Policy Optimality
+>
+>> A. Policy Improvement Theorem
+>>
+>> B. Optimal State-Value Function
+>>
+>> C. Optimal Action-Value Function
+>>
+>> D. Bellman Optimality Equation for $Q^*$
+>>
+>> E. Deriving Optimal Policy
+>>
+> Q-Learning
+>
+>> A. Q-Value Table
+>>
+>>> I. Initialization
+>>>
+>> B. Exploration Vs Exploitation
+>>
+>>> I. Epsilon Greedy Strategy
+>>>
+>> C. Q-value Update with Q-Learning Algorithm
+>>
+>> D. Mars Rover Q-Learning Example
+>>
+> Deep Q-Learning
+>
+>> A. Deep Q-Networks (DQN)
+>>
+>>> I. Policy Network Architecture
+>>>
+>>> II. Loss Calculation
+>>>
+>>> III. Update Parameters
+>>>
+>> B. Experience Replay & Replay Memory
+>>
+>>> I. Replay Memory as a Tuple
+>>>
+>>> II. Randomly Sampling Replay Memory
+>>>
+>>> III. Training with Replay
+>>>
+> Training a DQN
+>
+>> A. Training Steps
+>>
+>>> I. Sample a Random Batch from Replay Memory.
+>>>
+>>> II. Preprocess the State
+>>>
+>>> III. Forward Propagation
+>>>
+>>> IV. Calculate Loss
+>>>
+>>> V. Backpropagation & Gradient Descent
+>>>
+>> B. Full Training Loop
+>>
+>> C. Limitations of Standard DQNs
+>>
+> Target Network
+>
+>> A. Initialization
+>>
+>> B. Soft Update
+>>
+>> C. Updated Training Process
+>>
+> Next Steps
 </details>
 
 [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
 
 <details>
-   <summary>&nbsp;Show contents</summary>
-&nbsp;
-
-Gynmasium
-
-The Cartpole Envirnonment
-
-Solved Requirements
-
-Developing a Cartpole Agent
-
-&nbsp;&nbsp;&nbsp;&nbsp;Install Gymnasium
-
-&nbsp;&nbsp;&nbsp;&nbsp;Import Required Libaries
-
-&nbsp;&nbsp;&nbsp;&nbsp;Initialize Envirnonment
-
-&nbsp;&nbsp;&nbsp;&nbsp;Create Replay Memory
-
-&nbsp;&nbsp;&nbsp;&nbsp;Build Deep Q-Network
-
-&nbsp;&nbsp;&nbsp;&nbsp;Define Hyperparameters
-
-&nbsp;&nbsp;&nbsp;&nbsp;Define Policy and Target Network
-
-&nbsp;&nbsp;&nbsp;&nbsp;Create Policy Network Tracker
-
-&nbsp;&nbsp;&nbsp;&nbsp;Train Agent
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Math Functions for Training
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Agent Class
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intialize Agent
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Train Agent
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluate Agent
-
-&nbsp;&nbsp;&nbsp;&nbsp;Solve Problem
-
+   <summary>&npsb;Show contents</summary>
+   
+> Gymnasium
+>
+> The Cartpole Envirnonment
+>
+> Solved Requirements
+>
+> Developing a Cartpole Agent
+>
+>> Install Gymnasium
+>>
+>> Import Required Libaries
+>>
+>> Initialize Envirnonment
+>>
+>> Create Replay Memory
+>>
+>> Build Deep Q-Network
+>>
+>> Define Hyperparameters
+>>
+>> Define Policy and Target Network
+>>
+>> Create Policy Network Tracker
+>>
+>> Train Agent
+>>
+>>> Create Math Functions for Training
+>>>
+>>> Create Agent Class
+>>>
+>>> Intialize Agent
+>>>
+>>> Train Agent
+>>>
+>>> Evaluate Agent
+>>>
+>> Solve Problem
 </details>
 
 ## About
