@@ -2,7 +2,7 @@
 
 ## Course Modules
 
-[Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
+[*Part I: Theory and Math*](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 <details>
    <summary>&nbsp;Show contents</summary>
 &nbsp;
@@ -112,7 +112,7 @@
 > Next Steps
 </details>
 
-[Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
+[*Part II: Implementing Reinforcement Learning in Python*](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
 
 <details>
    <summary>&nbsp;Show contents</summary>
