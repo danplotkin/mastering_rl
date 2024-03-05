@@ -9,9 +9,9 @@
 
 Introduction to Reinforcement Learning
 
-&nbsp;&nbsp;&nbsp;&nbsp;Reinforcement Learning vs Supervised and Unsupervised Learning
+Reinforcement Learning vs Supervised and Unsupervised Learning
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reinforcement Learning
+Use Cases for Reinforcement Learning
 
 Markov Decision Processes (MDP)
 
