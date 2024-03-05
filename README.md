@@ -122,7 +122,51 @@ Target Network
 Next Steps
 </details>
 
-> 2. [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
+2. [Part II: Implementing Reinforcement Learning in Python](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
+
+<details>
+   <summary>&nbsp;Show contents</summary>
+&nbsp;
+
+Gynmasium
+
+The Cartpole Envirnonment
+
+Solved Requirements
+
+Developing a Cartpole Agent
+
+&nbsp;&nbsp;&nbsp;&nbsp;Install Gymnasium
+
+&nbsp;&nbsp;&nbsp;&nbsp;Import Required Libaries
+
+&nbsp;&nbsp;&nbsp;&nbsp;Initialize Envirnonment
+
+&nbsp;&nbsp;&nbsp;&nbsp;Create Replay Memory
+
+&nbsp;&nbsp;&nbsp;&nbsp;Build Deep Q-Network
+
+&nbsp;&nbsp;&nbsp;&nbsp;;Define Hyperparameters
+
+&nbsp;&nbsp;&nbsp;&nbsp;Define Policy and Target Network
+
+&nbsp;&nbsp;&nbsp;&nbsp;Create Policy Network Tracker
+
+&nbsp;&nbsp;&nbsp;&nbsp;Train Agent
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Math Functions for Training
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Agent Class
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intialize Agent
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Train Agent
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluate Agent
+
+&nbsp;&nbsp;&nbsp;&nbsp;Solve Problem
+
+</details>
 
 ## About
 Welcome to my course *Mastering Reinforcement Learning: Theory, Math, and Python*! This course will be split up into two parts:
