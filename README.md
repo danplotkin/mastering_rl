@@ -2,7 +2,7 @@
 
 ## Course Modules:
 
-1. [Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
+[Part I: Theory and Math](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part1.ipynb)
 <details>
    <summary>&nbsp;Show contents</summary>
 &nbsp;
