@@ -65,16 +65,6 @@ Q-Learning
 
 &nbsp;&nbsp;&nbsp;&nbsp;D. Mars Rover Q-Learning Example
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1. Q-Value Table Initialization
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Current State $s_4$
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3: Transition and Reward
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4: Q-Value Update
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Update Q Table:
-
 Deep Q-Learning
 
 &nbsp;&nbsp;&nbsp;&nbsp;A. Deep Q-Networks (DQN)
