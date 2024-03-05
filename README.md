@@ -146,7 +146,7 @@ Developing a Cartpole Agent
 
 &nbsp;&nbsp;&nbsp;&nbsp;Build Deep Q-Network
 
-&nbsp;&nbsp;&nbsp;&nbsp;;Define Hyperparameters
+&nbsp;&nbsp;&nbsp;&nbsp;Define Hyperparameters
 
 &nbsp;&nbsp;&nbsp;&nbsp;Define Policy and Target Network
 
