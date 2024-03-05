@@ -6,7 +6,6 @@
 <details>
    <summary> Show more </summary>
 
-&nbsp;
 
 Introduction to Reinforcement Learning
 
