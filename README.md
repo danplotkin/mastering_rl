@@ -142,15 +142,15 @@
 >>
 >> I. Train Agent
 >>
->>> i. Create Math Functions for Training
+>>> I. Create Math Functions for Training
 >>>
->>> ii. Create Agent Class
+>>> II. Create Agent Class
 >>>
->>> iii. Intialize Agent
+>>> III. Intialize Agent
 >>>
->>> iv. Train Agent
+>>> IV. Train Agent
 >>>
->>> v. Evaluate Agent
+>>> V. Evaluate Agent
 >>>
 >> J. Solve Problem
 </details>
