@@ -7,13 +7,13 @@
    <summary>&nbsp;Show table of contents</summary>
 &nbsp;
    
-> Introduction to Reinforcement Learning
+> 1 - Introduction to Reinforcement Learning
 >
-> Reinforcement Learning vs Supervised and Unsupervised Learning
+> 2 - Reinforcement Learning vs Supervised and Unsupervised Learning
 >
-> Use Cases for Reinforcement Learning
+> 3 - Use Cases for Reinforcement Learning
 >
-> Markov Decision Processes (MDP)
+> 4 - Markov Decision Processes (MDP)
 >
 >> A. Markov Property
 >>
@@ -39,7 +39,7 @@
 >>
 >> J. Representing MDP as a Tuple
 >>
-> Policy Optimality
+> 5 - Policy Optimality
 >
 >> A. Policy Improvement Theorem
 >>
@@ -51,7 +51,7 @@
 >>
 >> E. Deriving Optimal Policy
 >>
-> Q-Learning
+> 6 - Q-Learning
 >
 >> A. Q-Value Table
 >>
@@ -65,7 +65,7 @@
 >>
 >> D. Mars Rover Q-Learning Example
 >>
-> Deep Q-Learning
+> 7 - Deep Q-Learning
 >
 >> A. Deep Q-Networks (DQN)
 >>
@@ -83,7 +83,7 @@
 >>>
 >>> III. Training with Replay
 >>>
-> Training a DQN
+> 8 - Training a DQN
 >
 >> A. Training Steps
 >>
@@ -101,7 +101,7 @@
 >>
 >> C. Limitations of Standard DQNs
 >>
-> Target Network
+> 9 - Target Network
 >
 >> A. Initialization
 >>
@@ -109,7 +109,7 @@
 >>
 >> C. Updated Training Process
 >>
-> Next Steps
+> 10 - Next Steps
 </details>
 
 [*Part II: Implementing Reinforcement Learning in Python*](https://colab.research.google.com/github/danplotkin/mastering_rl/blob/main/mastering_rl_part2.ipynb)
@@ -118,41 +118,41 @@
    <summary>&nbsp;Show table of contents</summary>
 &nbsp;
 
-> Gymnasium
+> 1 - Gymnasium
 >
-> The Cartpole Envirnonment
+> 2 - The Cartpole Envirnonment
 >
-> Developing a Cartpole Agent
+> 3 - Developing a Cartpole Agent
 >
->> Install Gymnasium
+>> A. Install Gymnasium
 >>
->> Import Required Libaries
+>> B. Import Required Libaries
 >>
->> Initialize Envirnonment
+>> C. Initialize Envirnonment
 >>
->> Create Replay Memory
+>> D. Create Replay Memory
 >>
->> Build Deep Q-Network
+>> E. Build Deep Q-Network
 >>
->> Define Hyperparameters
+>> F. Define Hyperparameters
 >>
->> Define Policy and Target Network
+>> G. Define Policy and Target Network
 >>
->> Create Policy Network Tracker
+>> H. Create Policy Network Tracker
 >>
->> Train Agent
+>> I. Train Agent
 >>
->>> Create Math Functions for Training
+>>> i. Create Math Functions for Training
 >>>
->>> Create Agent Class
+>>> ii. Create Agent Class
 >>>
->>> Intialize Agent
+>>> iii. Intialize Agent
 >>>
->>> Train Agent
+>>> iv. Train Agent
 >>>
->>> Evaluate Agent
+>>> v. Evaluate Agent
 >>>
->> Solve Problem
+>> J. Solve Problem
 </details>
 
 ## About
