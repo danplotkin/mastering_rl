@@ -156,7 +156,7 @@
 </details>
 
 ## About
-Welcome to my course *Mastering Reinforcement Learning: Theory, Math, and Python*! This course will be split up into two parts:
+Welcome to my notebook crash course *Mastering Reinforcement Learning: Theory, Math, and Python*! This course will be split up into two parts:
 * Part I: Theory and Math
 * Part II: Implementing Reinforcement Learning in Python 
 
